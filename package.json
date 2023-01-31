@@ -9,12 +9,18 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@react-query-firebase/auth": "^1.0.0-dev.2",
     "expo": "~47.0.12",
+    "expo-firebase-core": "~6.0.0",
+    "expo-firebase-recaptcha": "~2.3.1",
     "expo-status-bar": "~1.4.2",
+    "firebase": "^9.16.0",
     "react": "18.1.0",
     "react-dom": "18.1.0",
     "react-native": "0.70.5",
-    "react-native-web": "~0.18.9"
+    "react-native-web": "~0.18.9",
+    "react-native-webview": "11.23.1",
+    "react-query": "^3.39.3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
