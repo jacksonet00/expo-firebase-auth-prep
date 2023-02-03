@@ -1,6 +1,6 @@
 import { PhoneAuthProvider, signInWithCredential, getAuth } from "firebase/auth";
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, Button, TextInput } from 'react-native';
+import { View, StyleSheet, Button, TextInput } from 'react-native';
 import { AuthStackNavProps } from ".";
 
 const VerificationCodeForm: React.FC<AuthStackNavProps<"VerificationCode">> = ({ route }) => {
